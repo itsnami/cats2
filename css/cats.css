@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: #FFE6E6;
+
+}
+
+/* lead image and lead text */
+.lander-image {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.heading-main {
+  padding: 3% 0 0;
+  font-weight: bolder;
+  font-size: 5rem;
+}
+
+.intro-para {
+  padding: 0 25% 2%;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.container-fluid{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+
+/* carousel and images therein */
+#cat-map {
+  padding-top: 2%;
+  background-color: black;
+}
+.carousel-inner{
+justify-content: center;
+padding: 0 25% 0;
+
+}
+.carouselExampleControls {
+  position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+.d-block {
+  height: auto;
+  width: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  height: 20%;
+  top: 40%;
+  width: 86px;
+  background: #7F8487;
+}
